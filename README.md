@@ -38,6 +38,20 @@ CNN model to read, process, and classify images (i.e. 10 classes of animals)
 
 ![Confusion Matrix](images/confusion_matrix.png)
 
+| Classification Report |           |        |          |         |
+|-----------------------|-----------|--------|----------|---------|
+|                       | Percision | Recall | f1-score | support |
+| airplane              | 0.97      | 0.96   | 0.97     | 145     |
+| car                   | 0.95      | 0.96   | 0.96     | 194     |
+| cat                   | 0.75      | 0.84   | 0.79     | 177     |
+| dog                   | 0.79      | 0.61   | 0.69     | 140     |
+| flower                | 0.87      | 0.92   | 0.89     | 169     |
+| fruit                 | 0.99      | 1.00   | 1.00     | 200     |
+| motorbike             | 0.99      | 0.98   | 0.99     | 158     |
+| person                | 0.99      | 0.99   | 0.99     | 197     |
+| accuracy              |           |        | 0.92     | 1380    |
+| macro avg             | 0.91      | 0.91   | 0.91     | 1380    |
+| weighted avg          | 0.92      | 0.92   | 0.92     | 1380    |
 
 
 #### Load Model:
